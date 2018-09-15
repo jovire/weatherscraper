@@ -68,10 +68,7 @@ today = date.today().isoweekday()
 week = f'{weekdays[today]: <{16}} {weekdays[(today+1)%7]:<{16}} '\
        f'{weekdays[(today+2)%7]:<{16}} {weekdays[(today+3)%7]:<{16}} '\
        f'{weekdays[(today+4)%7]:<{16}}'
-
-#with open('5dayweather-6am.json', 'w') as f:
-#    json.dump(json_data, f)
-
+        
 dayOne = {'high': 0, 'low': 0, 'desc': ''}
 dayTwo = {'high': 0, 'low': 0, 'desc': ''}
 dayThree = {'high': 0, 'low': 0, 'desc': ''}
